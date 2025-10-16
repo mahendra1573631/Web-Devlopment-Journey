@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form and input tag.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--All form learn about us click the link-->
+    <h3 style="text-decoration: underline;">Learn html forms click the link</h3>
+    <ul>
+        <li><a href="https://www.w3schools.com/html/html_forms.asp">w3schools</a></li>
+        <li><a href="https://www.geeksforgeeks.org/html/html-forms/">GeeksforGeeks.org</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/form">devloper.mozilla.org</a></li>
+    </ul>
+    <br>
+    <h2>Html Form and Input tags</h2>
+    <h2>Html Form</h2>
+    <form action="">
+        <div>
+            <label for="username">Enter your username:</label>
+            <input type="text" name="username" id="username" placeholder="Enter your username" required>
+        </div>
+        <div>
+            <label for="password">Enter your password:</label>
+            <input type="text" name="password" id="password" placeholder="Enter your password" pattern="aa-AA-1@$%" required>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe">
+            <label for="subscribe">Subscribe my channel</label>
+        </div>
+        <div>
+            <label for="text">Enter your text</label><br>
+            <textarea name="text" id="text" cols="60" rows="10" placeholder="Enter your text here....."></textarea>
+        </div>
+        <div>
+            <select name="fruits" id="">
+                <option value="fruit">Fruit</option>
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+            </select>
+        </div>
+        <button onclick="click()">Submit</button>
+    </form>
+</body>
+</html>

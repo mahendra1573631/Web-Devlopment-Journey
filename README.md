@@ -1,2 +1,2 @@
-# Web-Devlopment-Journey
-My Web development jouney for learning
+# My-Web-Development-Journey
+Sigma my web development journey

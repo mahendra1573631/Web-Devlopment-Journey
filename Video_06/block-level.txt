@@ -1,0 +1,34 @@
+HTML Block-level Elements
+A block-level element always starts on a new line and stretches out to the left and right as far as it can i.e, it occupies the whole horizontal space of its parent element & the height is equal to the content's height.
+
+<address>
+<blockquote>
+<dd>
+<Div>
+<dl> 
+<dt>
+<canvas>
+<form>
+<Heading>
+<hr>
+<li>
+<main>
+<nav>
+<noscript>
+<ol>
+<pre>
+<section>
+<tfoot>
+<ul>
+<table>
+<p>
+<Video>
+<aside>
+<article>
+<figcaption>
+<fieldset>
+<figure>
+<footer>
+<header>
+div element:
+The <div> element is used as a container for other HTML elements. It has no required attributes. Style, class, and id are the commonly used attributes.

@@ -1,0 +1,38 @@
+Inline Elements
+An inline element is the opposite of the block-level element. It does not start on a new line and takes up only the necessary width ie., it only occupies the space bounded by the tags defining the HTML element, instead of breaking the flow of the content. 
+
+<br>
+<button>
+<time>
+<tt>
+<var>
+<a>
+<abbr>
+<acronym>
+<b>
+<cite>
+<code>
+<dfn>
+<em>
+<i>
+<output>
+<q>
+<samp>
+<script>
+<select>
+<small>
+<span>
+<strong>
+<sub>
+<sup>
+<textarea>
+<bdo>
+<big>
+<img>
+<input>
+<kbd>
+<label>
+<map>
+<Object>
+span element:
+The <span> tag is used as a container for text. It has no required attributes. Style, class, and id are the commonly used attributes.

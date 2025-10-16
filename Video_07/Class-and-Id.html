@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class and Id in Html</title>
+    <style>
+        body{
+            background-color: coral;
+        }
+        h1{
+            text-align: left;
+            background-color: antiquewhite;
+            color: forestgreen;
+            text-decoration: underline;
+        }
+        h2,h3{
+            text-decoration: underline;
+            background-color: aquamarine;
+            color: blueviolet;
+        }
+        table{
+            background-color: cadetblue;
+            color: rgb(10, 10, 10);
+        }
+    </style>
+</head>
+<body>
+    <p>In HTML, id and class are attributes used to identify and group elements, primarily for styling with CSS and scripting with JavaScript.</p>
+    <h1>Class and Id in Html:-</h1>
+    <h2>Class Attributes:-</h2>
+    <ul>
+        <li>Reusability: A class can be applied to multiple HTML elements, allowing you to group elements that share common styling or functionality.</li>
+        <li>Purpose: Used to apply the same styles or behaviors to multiple elements, group related elements, or categorize elements for easier selection in JavaScript (e.g., document.getElementsByClassName()).</li>
+        <li>Syntax:</li>
+        <code><div class="container">This is a div</div></code>
+    </ul>
+    <br><h2>Id Attributes:-</h2>
+    <ul>
+        <li>Uniqueness: An id must be unique within an entire HTML document. No two elements on a page should have the same id.</li>
+        <li>Purpose: Primarily used to identify a single, specific element for styling, JavaScript manipulation (e.g., document.getElementById()), or as a target for internal links (bookmarks).</li>
+        <li>Syntax:</li>
+        <code><div id="user">This is a class</div></code>
+    </ul>
+
+    <h3>Key Differences Summarized:-</h3>
+    <table border="2px solid black">
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>id Attribute</th>
+                <th>class Attribute</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Uniqueness</td>
+                <td>Must be unique within the document.</td>
+                <td>Can be applied to multiple elements.</td>
+            </tr>
+            <tr>
+                <td>Purpose</td>
+                <td>Target a single, specific element.</td>
+                <td>Groups multiple elements for common styling and behavior.</td>
+            </tr>
+            <tr>
+                <td>CSS Selector</td>
+                <td># (hashtag)</td>
+                <td>. (period)</td>
+            </tr>
+            <tr>
+                <td>JavaScript Access</td>
+                <td>document.getElementById() (Returns a single element).</td>
+                <td>document.getElementsByClassName() (Returns a collection of elements.)</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

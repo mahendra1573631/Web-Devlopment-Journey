@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Style is 3 types to link</h1>
+    <ul>
+      <li>External Css</li>
+      <li>Internal Css</li>
+      <li>Inline Css</li>
+    </ul>
+    <div>
+      <ol>
+        <li id="list">External Stylesheets (Recommended for most projects):</li>
+        <p>
+          This method involves creating a separate .css file containing all your
+          styles and linking it to your HTML document.
+        </p>
+        <ul type="disc">
+          <li>
+            Create a CSS file (e.g., style.css) in the same directory as your
+            HTML file, or in a dedicated css folder.
+          </li>
+          <li>
+            Within the &lt;head&gt; section of your HTML document, add the
+            following &lt;link&gt; tag:
+          </li>
+          <div id="my-div">
+            <pre>Code:
+                        <code>&lt;link rel="stylesheet" href="path/to/your/style.css"&gt;
+                        </code>
+                    </pre>
+          </div>
+          <li>
+            rel="stylesheet": Specifies the relationship between the HTML file
+            and the linked file (indicating it's a stylesheet).
+          </li>
+          <li>
+            href="path/to/your/style.css": Specifies the path to your CSS file.
+            Adjust the path if your CSS file is in a different location (e.g.,
+            css/style.css if it's in a css folder).
+          </li>
+          <br />
+        </ul>
+        <li id="list">
+          Internal/Embedded Styles (Suitable for single-page documents or
+          page-specific styles) :-
+        </li>
+        <p>
+          This method involves embedding CSS directly within the &lt;head&gt;
+          section of your HTML document using the &lt;style&gt; tag.
+        </p>
+        <div id="my-div">
+          <pre>Code:
+                <code>
+                    &lt;head&gt;
+                        &lt;style&gt;
+                            body{
+                                background-color: blue;
+                            }
+                            h1{
+                                color:black;
+                            }
+                        &lt;/style&gt;
+                    &lt;/head&gt;
+                </code>
+            </pre>
+        </div>
+        <li id="list">
+          Inline Styles (Use sparingly for unique, single-element styling
+          needs):
+        </li>
+        <p>
+          This method involves applying styles directly to individual HTML
+          elements using the style attribute.
+        </p>
+        <div id="my-div">
+            <pre>Code:
+                <code>&lt;h1 style="color:red;font-size: 10px;"&gt;</code>
+            </pre>
+        </div>
+      </ol>
+    </div>
+  </body>
+</html>

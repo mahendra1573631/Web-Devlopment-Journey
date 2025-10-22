@@ -1,0 +1,45 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+body{
+    background-color: chocolate;
+}
+h1{
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: size 30px;;
+}
+p{
+    /* font-family: "Roboto", sans-serif; */
+    font: size 500px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 500; */
+}
+.font{
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    /* text-decoration-style: dotted; */
+    text-decoration-thickness: 5px;
+    /* text-indent: 30px; */
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    /* text transform is used for first letter capital*/
+    letter-spacing: 10px;
+    /*letter spacing is used for letter space in a word*/
+    /*line height is two p tag space between as*/
+    line-height: 3;
+}
+.lorem{
+    border: 2px solid red;
+    width: 40px;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

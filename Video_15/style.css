@@ -1,0 +1,43 @@
+h2{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+*{
+    margin: 0;
+}
+.box{
+    background-color: aqua;
+}
+.box-1{
+    color: black;
+    padding: 30px;
+    margin: 25px;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+    height: 200px;
+    box-sizing: border-box;
+}
+.box-2{
+    color: red;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+    height: 400px;
+    box-sizing: border-box;
+}
+.box-2:hover{
+    background-color: blueviolet;
+    color: black;
+}
+h3{
+    text-decoration: underline;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
